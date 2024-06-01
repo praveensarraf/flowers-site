@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Praveen Kumar's Flowers | Home</title>
+
+        <!-- FontAwesome CDN Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Bootstrap 5 CDN Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <!-- CSS External File Link -->
+        <link rel="stylesheet" href="css/homestyle.css">
+    </head>
+
+    <body>
+        <!-- Top-Nav -->
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 contact">
+                        <div class="row">
+                            <div class="col-5">
+                                <a href="https://maps.app.goo.gl/FHifpA4xDuLTbBsw6" target="_blank"><i class="fa-solid fa-location-dot"></i> Muzaffarpur, Bihar, 802301</a>
+                            </div>
+                        
+                            <div class="col-7">
+                                <a href="tel:+917717796650"><i class="fa-solid fa-phone-volume"></i> +91 77177 96650</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 social">
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://web.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="margin: 0;">
+
+        <!-- Navbar starts from here -->
+        <div id="topMenu">
+            <nav class="navbar navbar-expand-lg py-lg-0" id="topMenuNav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="images/mylogo.png" alt="Praveen Kumar's Flowers Logo" title="Praveen Flowers Logo"></a>
+                    
+                    <button class="navbar-toggler mr-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContents" aria-controls="navbarContents" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarContents">
+                        <ul class="navbar-nav mx-lg-auto me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown" id="aboutDropdown">
+                                <a class="nav-link dropdown-toggle dropdownHeading" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Flowers
+                                </a>
+
+                                <ul class="dropdown-menu dropdown-content" id="aboutDropdownMenu">
+                                    <li><a class="dropdown-item" href="pages/basket.html">Basket Arrangements</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/flowerbuquet.html">Flower Bouquet</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/basket.html">Best Sellers</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/Rose.html">Roses</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/lilly.html">Lilies</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/carnations.html">Carnations</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/orchid.html">Orchids</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/gerbera.html">Gerbera</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/mix.html">Mix Flowers</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown" id="servicesDropdown">
+                                <a class="nav-link dropdown-toggle dropdownHeading" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Occasions
+                                </a>
+                                <ul class="dropdown-menu dropdown-content" id="servicesDropdownMenu">
+                                    <li><a class="dropdown-item" href="pages/birthday.html">Birthday Flowers</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/aniversy.html">Anniversary Flowers</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/Rose.html">Love & Romance</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/sorry.html">I'm Sorry</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/congratulation.html">Congratulations</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/getwellsoon.html">Get Well Soon</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/sympathy.html">Sympathy Funeral</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/valentineday.html">Valentines Day</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/birthday.html">Birthday</a>
+                            </li>
+
+                            <li class="nav-item dropdown" id="projectDropdown">
+                                <a class="nav-link dropdown-toggle dropdownHeading" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Gifts
+                                </a>
+
+                                <ul class="dropdown-menu dropdown-content" id="projectDropdownMenu">
+                                    <li><a class="dropdown-item" href="pages/cake.html">Cakes</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/fruitbasket.html">Fruit Basket</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/baloonboquet.html">Balloon Bouquet</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/chacolet.html">Chocolate Bouquet</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="pages/flowerwithcake.html">Flowers with Cake</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/motherdayspecial.html">Mother's Day Special</a>
+                            </li>
+                        </ul>
+
+                        <div id="signInBox2">
+                            <ul>
+                                <li><a href="pages/signup.html" title="Sign Up"><i class="fa-regular fa-user"></i></a></li>
+                                <li style="margin: 0 15px;"><a href="#" title="Search" id="searchLink2"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                                <li><a href="#" title="Cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div> 
+
+                    <div id="signInBox">
+                        <ul>
+                            <li><a href="pages/signup.html" title="Sign Up"><i class="fa-regular fa-user"></i></a></li>
+                            <li style="margin: 0 15px;"><a href="#" title="Search" id="searchLink"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            <li><a href="#" title="Cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container py-4" id="searchBox" style="display: none;">
+                <div class="row">
+                    <div class="col-7 col-md-10">
+                        <input type="search" placeholder=" Type Something to Search Here" class="form-control w-100">
+                    </div>
+            
+                    <div class="col-5 col-md-2">
+                        <button type="button" class="btn btn-light searchBtn w-100">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar closed here -->
+
+
+        <!-- Top Marquee -->
+
+        <marquee id="topMarquee">
+           <span id="marqueeSpan1">Breaking</span> Best deal of the Month - Get upto 25% OFF on our all products. Use Promo "<span id="marqueeSpan2">PraveenKumar</span>"
+        </marquee>
+
+        <!-- Top Marquee closed here -->
+        
+        <hr class="m-0">
+
+
+        <!-- Carousel started from here -->
+
+         <!-- Carousel Section -->
+         <div id="myCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-indicators d-none d-md-flex">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2500">
+                    <img src="images/image1.jpg" class="d-block w-100" alt="image1">
+                    <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 50%;">
+                        <h3>First slide label</h3>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <a href="#" class="btn btn-outline-light mx-auto">Enroll now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="images/image2.jpg" class="d-block w-100" alt="image2">
+                    <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 50%;">
+                        <h3>Second slide label</h3>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <a href="#" class="btn btn-outline-light mx-auto">Enroll now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="images/image3.jpg" class="d-block w-100" alt="image3">
+                    <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 50%;">
+                        <h3>Third slide label</h3>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <a href="#" class="btn btn-outline-light mx-auto">Enroll now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="images/image4.jpg" class="d-block w-100" alt="image4">
+                    <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 50%;">
+                        <h3>Fourth slide label</h3>
+                        <p>Some representative placeholder content for the fourth slide.</p>
+                        <a href="#" class="btn btn-outline-light mx-auto">Enroll now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="images/image5.jpg" class="d-block w-100" alt="image5">
+                    <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 50%;">
+                        <h3>Fifth slide label</h3>
+                        <p>Some representative placeholder content for the fifth slide.</p>
+                        <a href="#" class="btn btn-outline-light mx-auto">Enroll now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="images/image6.jpg" class="d-block w-100" alt="image6">
+                    <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 50%;">
+                        <h3>Sixth slide label</h3>
+                        <p>Some representative placeholder content for the sixth slide.</p>
+                        <a href="#" class="btn btn-outline-light mx-auto">Enroll now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="images/image7.jpg" class="d-block w-100" alt="image6">
+                    <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 50%;">
+                        <h3>Seventh slide label</h3>
+                        <p>Some representative placeholder content for the seventh slide.</p>
+                        <a href="#" class="btn btn-outline-light mx-auto">Enroll now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="images/image8.jpg" class="d-block w-100" alt="image6">
+                    <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 50%;">
+                        <h3>Eighth slide label</h3>
+                        <p>Some representative placeholder content for the eighth slide.</p>
+                        <a href="#" class="btn btn-outline-light mx-auto">Enroll now</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="images/image9.jpg" class="d-block w-100" alt="image6">
+                    <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 50%;">
+                        <h3>Ninth slide label</h3>
+                        <p>Some representative placeholder content for the ninth slide.</p>
+                        <a href="#" class="btn btn-outline-light mx-auto">Enroll now</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="visually-hidden">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+
+
+        <!-- Carousel closed from here -->
+
+        <!-- Intro started from here -->
+
+        <div class="container" id="intro">
+            <h3>Welcome to India's biggest portal for online flowers delivery</h3>
+            <h1 id="introHeading">Praveen Kumar's Flowers</h1>
+            <p> Discover a vibrant array of fresh, hand-picked flowers to brighten any occasion. From elegant bouquets to charming arrangements, we offer a kaleidoscope of colors and fragrances to delight your senses. Whether it's a romantic gesture, a heartfelt apology, or a joyful celebration, let our exquisite blooms speak your language of love and appreciation. With easy browsing and secure checkout, let us be your trusted partner in spreading beauty, one blossom at a time.</p>
+            <div id="introBtn">
+                <a href="pages/Rose.html" class="btn myBtn">Best Sellers</a>
+                <a href="pages/birthday.html" class="btn myBtn">Birthday Flowers</a>
+            </div>
+        </div>
+
+        <!-- Intro closed here -->
+
+        <div class="container">
+            <hr class="my-5">
+        </div>
+
+        <!-- Cards started from here-->
+
+        <div class="container my-5">
+            <h1 class="text-center my-4">Fresh Arrivals</h1>
+            <div class="row my-3">
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg1.jpg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    A Dozen Red Roses
+                                </h5>
+        
+                                <p class="card-text">
+                                    Rs. 599.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg2.png" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Appealing Charm Bouquet
+                                </h5>
+        
+                                <p class="card-text">
+                                    From Rs. 999.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg3.png" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Gorgeous Romance
+                                </h5>
+        
+                                <p class="card-text">
+                                    From Rs. 799.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg4.jpg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Alphabetical Arrangement
+                                </h5>
+        
+                                <p class="card-text">
+                                    From Rs. 1599.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg5.jpeg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    White & Pink Roses
+                                </h5>
+        
+                                <p class="card-text">
+                                    Rs. 899.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg6.jpeg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Charming Bouquet
+                                </h5>
+        
+                                <p class="card-text">
+                                    From Rs. 799.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg7.jpeg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Heartful Wishes
+                                </h5>
+        
+                                <p class="card-text">
+                                    From Rs. 799.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg8.jpeg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Lovely Meetup
+                                </h5>
+        
+                                <p class="card-text">
+                                    From Rs. 899.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg9.jpeg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    White Love White Rose
+                                </h5>
+        
+                                <p class="card-text">
+                                    Rs. 699.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg10.jpeg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    My Only Love
+                                </h5>
+        
+                                <p class="card-text">
+                                    From Rs. 999.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg11.jpeg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Gorgeous Kiss
+                                </h5>
+        
+                                <p class="card-text">
+                                    From Rs. 1499.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/cardImg12.jpeg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Hello Greetings
+                                </h5>
+        
+                                <p class="card-text">
+                                    From Rs. 499.00
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 mx-auto mt-4">
+                    <a href="pages/mix.html" class="btn myBtn w-100">View All</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards closed here-->
+
+        <div class="container">
+            <hr class="my-5">
+        </div>
+        
+        <!-- Shop By Category -->
+
+        <div class="container my-5">
+            <h1 class="text-center my-4">Shop By Category</h1>
+            <div class="row my-3">
+                <div class="col-md-3 my-3 categories">
+                    <a href="#">
+                        <img src="images/categoryImg1.jpg" alt="" class="img-fluid w-100 categoryImg">
+
+                        <h3 class="categoryHead">ROSES</h3>
+                    </a>
+                </div>
+
+                <div class="col-md-3 my-3 categories">
+                    <a href="#">
+                        <img src="images/categoryImg2.png" alt="" class="img-fluid w-100 categoryImg">
+
+                        <h3 class="categoryHead">CHOCOLATES</h3>
+                    </a>
+                </div>
+
+                <div class="col-md-3 my-3 categories">
+                    <a href="#">
+                        <img src="images/categoryImg3.jpg" alt="" class="img-fluid w-100 categoryImg">
+
+                        <h3 class="categoryHead">BIRTHDAY</h3>
+                    </a>
+                </div>
+
+                <div class="col-md-3 my-3 categories">
+                    <a href="#">
+                        <img src="images/categoryImg4.png" alt="" class="img-fluid w-100 categoryImg">
+
+                        <h3 class="categoryHead">LOVE</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <hr class="my-5">
+        </div>
+        
+        <!-- FROM THE JOURNAL Part starts from here -->
+
+        <div class="container">
+            <h1 class="text-center mb-5">From The Journal</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/journalImg1.jpg" alt="" class="img-fluid w-100">
+                    <p class="text-center mt-2">When flowers bring exquisiteness to your theme parties</p>
+                </div>
+
+                <div class="col-md-4 my-4 my-md-0">
+                    <img src="images/journalImg2.webp" alt="" class="img-fluid w-100">
+                    <p class="text-center mt-2">Flowers and Theme Parties Arrangement</p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="images/journalImg3.webp" alt="" class="img-fluid w-100">
+                    <p class="text-center mt-2">Use the Language of Flowers</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FROM THE JOURNAL closed here -->
+        <div class="container">
+            <hr class="my-5">
+        </div>
+
+
+        <!-- Description - Pragaraph and Heading Part-->
+
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="myLastHead">ONLINE FLOWER DELIVERY IN INDIA</h2>
+                    <p>
+                        Praveen Kumar's Flowers bring flowers for every occasion, need and budget under one roof. Whether you are looking for wedding cakes or bouquets, standalone flowering plants or flower baskets, look no further! Handpicked and carefully selected by the expert florists, the flowers delivered by Praveen Kumar's Flowers are always fresh and in pristine condition.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="myLastHead">SAME DAY FLOWER DELIVERY</h2>
+                    <p>
+                        You missed booking flowers on wedding anniversary or forgot to get gift for your wife? Don't worry! Call at +91 123 456 7890 or while placing your order, mark the dispatch as same day flower delivery. All you have to do is to request the order before 3pm or give two hours gap between the time slots. And the expert florists and logistics partner won't leave any stone unturned to make sure that the flowers and gifts are delivered at the preferred address when requested. Be it classic red roses or a bouquet of exotic orchids, a gift basket with soft toy and cake or standing flower arrangement, nothing is impossible for Team Praveen Kumar's Flowers!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="myLastHead">FINEST ONLINE FLORIST IN INDIA SAME DAY TODAY</h2>
+                    <p>
+                        Praveen Kumar's Flowers understands that you need flowers to convey your heartfelt emotions and sincere wishes to the loved ones. And for this, you should not depend on the logistics or distance. India's premier online flower marketplace has collaborated with top-notch logistics partner to ensure on-time flower delivery. All you need is to book flowers online with personalised message and the flowers are delivered at the preferred address as and when you want across the country.
+                    </p>
+
+                    <p>
+                        Should you have any questions, the Praveen Kumar's Flowers customer care +91 123 456 7890 is just a call away!
+                    </p>
+                    <p>
+                        Browse through the website and categorize your search as per occasion, budget and floral arrangements.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="myLastHead">
+                        BOOK FLOWERS AND GIFTS ONLINE FOR EVERY OCCASION
+                    </h2>
+                    <p>
+                        Be it Valentine's Day or Get Well Soon floral arrangement , Praveen Kumar's Flowers brings you flowers for every occasion. While 'Just Because' range caters to the time when you don't need an excuse to gift flowers, 'Mother's Day' is a dedicated segment to the special day when you want to honor and show gratitude towards the special lady in your life. Regardless of the occasion, you get freshly-cut, carefully selected and handpicked seasonal as well as exoticflowers arranged by the expert florists. You can also select a wide assortment of perfectly arranged gift baskets and fruit baskets as well. In fact, if you are the latecomer in gifting department, you are the right place for last-minute gifts too! If you are looking to decorate a room full of roses or want a mandap adorned with flowers, let the expert florists at Praveen Kumar's Flowers take over your worries and tasks!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <hr class="my-5">
+        </div>
+
+
+        <!-- Card brfore footer part -->
+
+        <div class="container my-5">
+            <div class="row my-3">
+                <div class="col-md-4 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/footerTopImg1.jpg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    FLORAL NEWS
+                                </h5>
+        
+                                <p class="card-text">
+                                    Get latest flowers news & Our glossary of flowers can help you find the perfect one.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/footerTopImg2.png" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    ORCHIDS PASSION
+                                </h5>
+        
+                                <p class="card-text">
+                                    Known for their beauty and bloom, orchids are available for purchase throughout the year and the florists make sure that they are as splendid as the occasion.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3">
+                    <div class="card">
+                        <a href="#" class="cardAnchor">
+                            <img src="images/footerTopImg3.jpg" alt="" class="card-img-top">
+        
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    PERFECT ROSE BOUQUET
+                                </h5>
+        
+                                <p class="card-text">
+                                    Whether it is a last-minute gift or a well-thoughtful one, roses are the safest bet to convey your wishes and sentiments.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 mx-auto mt-4">
+                    <a href="pages/mix.html" class="btn w-100 myBtn">See More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card before footer closed here -->
+
+        
+        <!-- Footer starts from here -->
+        <div class="container-fluid mt-2 pt-3 pb-0" id="footer">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="d-flex justify-content-center" id="footerlogo">
+                        <img src="images/mylogo.png" alt="Praveen Kumar's Flowers Logo">
+                    </div>
+
+                    <p class="my-3" style="text-align: justify;">
+                        Welcome to the Praveen Kumar's Flowers, where floral dreams bloom! Discover a vibrant array of fresh, hand-picked flowers to brighten any occasion. From elegant bouquets to charming arrangements, we offer a kaleidoscope of colors and fragrances to delight your senses. Whether it's a romantic gesture, a heartfelt apology, or a joyful celebration, let our exquisite blooms speak your language of love and appreciation. With easy browsing and secure checkout, let us be your trusted partner in spreading beauty, one blossom at a time.
+                    </p>
+
+                    <div id="footerConnect">
+                        <div class="row my-2">
+                            <div class="col-12">
+                                <a href="mailto:kumar78praveen@gmail.com"><i class="fa-regular fa-envelope"></i> kumar78praveen@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="tel:7717796650"><i class="fa-solid fa-phone-volume"></i> +91 77177 96650</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-4 my-5 mx-sm-auto">
+                    <h3 class="fw-bold">Quick Links</h3>
+
+                    <ul class="mt-4" id="quickLinks">
+                        <li><a target="_blank" href="#">About Us</a></li>
+                        <li><a target="_blank" href="#">Occasions</a></li>
+                        <li><a target="_blank" href="pages/mix.html">Flowers</a></li>
+                        <li><a target="_blank" href="pages/gerbera.html">Gifts</a></li>
+                        <li><a target="_blank" href="#">Blogs</a></li>
+                        <li><a target="_blank" href="pages/mix.html">Gallery</a></li>
+                        <li><a target="_blank" href="#">Contact Us</a></li>
+                        <li><a target="_blank" href="#">Career</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-sm-4 mt-sm-5 mx-sm-auto" id="footerOffice">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="fw-bold">Head Office</h3>
+                            <p class="mt-3">Bhagwanpur, Muzaffarpur,<br>Bihar, India,<br>842001</p>
+                        </div>
+                    </div>
+
+                    <div class="row my-4">
+                        <div class="col-12">
+                            <h3 class="fw-bold">Branch Office</h3>
+                            <p class="mt-3">Chhattarpur Enclave,<br>Chhattarpur, New Delhi, India,<br>110074</p>
+                        </div>
+                    </div>
+
+                    <div class="row mt-md-3">
+                        <div class="col-12">
+                            <h3 class="fw-bold">Office Time</h3>
+                            <p class="mt-3">Monday - Sunday<br>08:00 AM - 08:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-8 my-5 mx-sm-auto" id="footerStayTuned">
+                    <div class="row">
+                        <div class="col-12" style="text-align: justify;">
+                            <h3 class="fw-bold">Stay Tuned With Us</h3>
+                            <p class="mt-3">Stay in the loop with the latest floral trends, exclusive offers, and exciting updates by subscribing to our newsletter. Be the first to know about seasonal specials, new arrivals, and helpful tips for caring for your flowers. Join our growing community of flower enthusiasts and let's cultivate beauty together. Sign up today and never miss a petal.</p>
+                        </div>
+                    </div>
+
+                    <div class="row" id="footerSubscribe">
+                        <div class="col-12 mt-4 form-group">
+                            <input type="email" class="form-control" placeholder=" Email Address">
+
+                            <div class="d-grid mt-3">
+                                <button class="btn btn-light">Subscribe Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-4 mb-2">
+
+            <div class="row" id="footerCopyright">
+                <div class="col-md-4 text-center" id="copyright">
+                    <p>copyright @2024 <span><a href="#" id="copyrightAnchor">Praveen Kumar's Flowers</a></span><br>- all rights reserved</p>
+                </div>
+
+                <div class="col-md-3 mt-md-0 mt-3" id="footarSocial">
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://web.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer closed here -->
+
+
+        <!-- JavaScript -->
+
+        <script src="js/headerFooter.js"></script>
+        <script src="js/searchBox.js"></script>
+    </body>
+</html>
