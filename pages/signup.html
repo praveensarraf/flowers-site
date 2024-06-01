@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Sign Up | Praveen Kumar's Flowers</title>
+
+        <!-- FontAwesome CDN Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Bootstrap 5 CDN Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <!-- CSS External File Link -->
+        <link rel="stylesheet" href="../css/homestyle.css">
+        <link rel="stylesheet" href="../css/signup_signin.css">
+    </head>
+    
+    <body>
+
+        <!-- Header -->
+        <my-header></my-header>
+
+        <div class="main">
+
+            <!-- Sign up form -->
+            <section class="signup">
+                <div class="myContainer">
+                    <div class="signup-content">
+                        <div class="signup-form">
+
+                            <h2 class="form-title">SIGN UP</h2>
+
+                            <form method="POST" class="register-form" id="register-form">
+
+                                <div class="form-group">
+                                    <label for="name"><i class="fa-solid fa-user-tie"></i></label>
+                                    <input type="text" name="name" id="name" placeholder="Your Full Name" required/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="username"><i class="fa-solid fa-user"></i></label>
+                                    <input type="text" name="username" id="username" placeholder="Username" required/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email"><i class="fa-solid fa-envelope"></i></label>
+                                    <input type="email" name="email" id="email" placeholder="Your Email" required/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="pass"><i class="fa-solid fa-user-lock"></i></label>
+                                    <input type="password" name="pass" id="pass" placeholder="Password" required/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="re-pass"><i class="fa-solid fa-lock"></i></label>
+                                    <input type="password" name="re_pass" id="re_pass" placeholder="Repeat Your Password" required/>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" required/>
+                                    <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to all statements in <a href="#" class="term-service">Terms of Service</a></label>
+                                </div>
+
+                                <div class="form-group form-button">
+                                    <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="signup-image">
+                            <figure><img src="../images/signup-image.jpg" alt="sign up image"></figure>
+                            <a href="signin.html" class="signup-image-link">I am already a member</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <my-footer></my-footer>
+
+        <!-- JS File -->
+        <script src="../js/headerFooter.js"></script>
+        <script src="../js/searchBox.js"></script>
+    </body>
+</html>
